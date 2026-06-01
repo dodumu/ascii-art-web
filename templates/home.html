@@ -1,0 +1,25 @@
+{{define "title"}}Ascii Web{{end}}
+
+{{define "content"}}
+
+
+<div class="text-area">
+    <h1>Welcome</h1>
+    <form action="/" method="POST">
+    <label for="text">Enter Text</label>
+    <br>
+    <textarea name="text" id="text" placeholder="Enter text.."></textarea>
+    <br><br>
+    <label for="font">Select font</label>
+    <br>
+    <select name="font" id="font">
+        <option value="standard.txt">Standard</option>
+        <option value="shadow.txt">Shadow</option>
+        <option value="thinkertoy.txt">Thinkertoy</option>
+    </select>
+    <br>
+    <h3>Submit</h3>
+    <button type="submit">Submit</button>
+</form>
+</div>
+{{end}}

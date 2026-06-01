@@ -1,0 +1,16 @@
+{{define "title"}}Ascii Output{{end}}
+
+{{define "content"}}
+<div class="result-card">
+    <h2>Result</h2>
+    <p class="subtitle">Your generated ASCII art</p>
+
+    <div class="output-box">
+        <pre>{{.Output}}</pre>
+    </div>
+
+    <div class="actions">
+        <a href="/" class="btn btn-back">← Go back</a>
+    </div>
+</div>
+{{end}}
